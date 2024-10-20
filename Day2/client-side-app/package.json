@@ -1,0 +1,33 @@
+{
+  "name": "client-side-app",
+  "version": "1.0.0",
+  "description": "Client Side Application Build using Webpack",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack",
+    "build-serve": "webpack & serve ./dist"
+  },
+  "author": "Manish Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.23.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "babel-loader": "^8.2.5",
+    "chalk": "^4.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "progress-bar-webpack-plugin": "^2.1.0",
+    "serve": "^14.0.1",
+    "terser-webpack-plugin": "^5.3.3",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3",
+    "webpack-merge": "^5.8.0"
+  }
+}

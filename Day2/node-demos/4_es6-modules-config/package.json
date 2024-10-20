@@ -1,0 +1,12 @@
+{
+  "name": "4_es6-modules-config",
+  "version": "1.0.0",
+  "description": "Node using ES 6 Modules",
+  "private":true,
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Manish Sharma",
+  "license": "ISC"
+}
